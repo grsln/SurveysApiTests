@@ -1,1 +1,7 @@
 # SurveysApiTests
+
+Pytest
+
+Allure
+
+Faker
