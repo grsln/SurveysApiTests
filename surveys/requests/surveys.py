@@ -22,7 +22,7 @@ class Surveys:
         return response
 
     @step("Получаем токен авторизации")
-    def get_token(self, login, password):
+    def get_token(self, login, password) -> str:
         response = self.surveys.post(
             url="/auth/", json={"email": login, "password": password}
         )
