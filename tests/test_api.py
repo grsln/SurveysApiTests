@@ -5,7 +5,7 @@ from surveys.responses.auth import AuthSuccessful, AuthUnsuccessful
 from surveys.responses.users import CreatedUser, DeletedUser, UpdatedUser
 
 
-@allure.feature("Тесты Surveys API (https://surveys-biof.onrender.com)")
+@allure.feature("Тесты Surveys API")
 class TestUsers:
     @allure.tag("critical")
     @allure.severity(Severity.CRITICAL)
